@@ -1,17 +1,17 @@
 /* 文章页背景 */
 .layout_post>#post {
     /* 以下代表透明度为0.7 可以自行修改*/
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
 }
  
 /* 所有页面背景 */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表透明度为0.7 */
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
 }
 /*侧边卡片的透明度 */
 :root {
-  --card-bg: rgba(0, 0, 0, 0.7);
+  --card-bg: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -42,10 +42,10 @@
 }
 
 #aside-content #card-toc .toc-content .toc-link.active {
-    border-left-color: #2962ff;
+    border-left-color: #e629ff;
     background: var(--btn-bg);
     border-radius: 7px;
-    box-shadow: 0 8px 12px -3px rgba(73,177,245,0.2);
+    box-shadow: 0 8px 12px -3px rgba(211, 73, 245, 0.2);
 }
 
 /* 页脚 */
